@@ -22,4 +22,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('mytest/', include('mytest.urls')),  # 將訪問/mytest的請求，按照mytest.urls處理
     path("", RedirectView.as_view(url="/mytest/")),  # 將路徑""導向/mytest頁面
+    #path('callback', include("mytest.urls")),# 將訪問/callback的請求，按照mytest.urls處理
 ]

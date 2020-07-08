@@ -24,7 +24,7 @@ SECRET_KEY = 'sx%$5nv$9e7m*+-=x)zgkfu+v=&bt5pxw7kc=@gpy)b&_5$ag9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]  # 允許任何ip訪問
 
 # Application definition
 
